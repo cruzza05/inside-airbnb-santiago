@@ -1,5 +1,5 @@
 # Datos pesados
-data/
+data/raw/
 *.csv
 *.csv.gz
 *.geojson
