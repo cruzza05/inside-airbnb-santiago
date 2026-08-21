@@ -1,11 +1,6 @@
-# Datos pesados
-data/raw/
-*.csv
-*.csv.gz
-*.geojson
+# Bloquear reviews.csv (por peso del archivo)
+*reviews*.csv
 
-# Excepción: Subset de 21 columnas
-!data/processed/listings_subset.csv
 
 # Python / Jupyter
 __pycache__/
