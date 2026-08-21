@@ -4,6 +4,9 @@ data/raw/
 *.csv.gz
 *.geojson
 
+# Excepción: Subset de 21 columnas
+!data/processed/listings_subset.csv
+
 # Python / Jupyter
 __pycache__/
 .ipynb_checkpoints/
